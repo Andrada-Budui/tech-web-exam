@@ -1,0 +1,80 @@
+body {
+    background-color: #f7d1cd;
+    padding: 10px;
+}
+
+.delete-btn,
+.candidates-btn,
+.add-btn,
+.save-btn {
+    padding: 8px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.delete-btn {
+    background-color: #941b0c;
+    color: #fff;
+}
+
+.delete-btn:hover {
+    background-color: #801709;
+}
+
+.candidates-btn {
+    background-color: #3a405a;
+    color: #fff;
+}
+
+.candidates-btn:hover {
+    background-color: #30364d;
+}
+
+.add-btn,
+.save-btn {
+    background-color: #69dc9e;
+    color: #000;
+}
+
+.add-btn:hover,
+.save-btn {
+    background-color: #5eca90;
+}
+
+.job-card,
+.candidate-card {
+    border: solid 1px;
+    /* max-width: 900px; */
+    border-radius: 2px;
+    padding: 0 10px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.job-card {
+    border-color: #e4925b;
+    background-color: #e59f71;
+}
+
+.job-info,
+.job-info h5 {
+    background-color: #e59f71;
+}
+
+.candidate-card {
+    border-color: #75b7db;
+    background-color: #86bbd8;
+    /* max-width: 400px; */
+}
+
+.candidate-info,
+.candidate-info h5 {
+    background-color: #86bbd8;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
